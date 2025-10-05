@@ -24,7 +24,7 @@ app.add_middleware(
 # Health check endpoint
 @app.get("/", tags=["Health Check"])
 async def root():
-    return {"message": "Server is running 🚀"}
+    return {"message": "Server is running"}
 
 # Register routers
 app.include_router(pdf_router.router)
