@@ -17,6 +17,7 @@ markdown-it-py==4.0.0
 MarkupSafe==3.0.3
 mdurl==0.1.2
 pydantic==2.11.9
+pdfplumber==0.10.3
 pydantic_core==2.33.2
 Pygments==2.19.2
 python-dotenv==1.1.1
